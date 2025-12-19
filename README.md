@@ -21,8 +21,8 @@ This folder contains data used in the manuscript. Some data files are explicitly
 
 R scripts are roughly organized by analysis and data type and in the order presented in the manuscript. 
 
-SEM_analyses_Fig2.R runs week-specific Structural Equation Modelling with the brms R package, and reproduces Fig 2a-d in the manuscript.
-Hypothesis1_GLMMS.R runs week-specific GLMMs to test the hypothesis that the slope describing the temperature vs GPP relationship is modified by dispersal. The model is described in the Methods section of the manuscript.
-Hypothesis2_Figs4-6.R generates manuscript figures4-6, which include the time series of GPP and biomass, and multivariate analyses (PERMANOVA, PERMDISP) summarizing experimental treatment effects on community size structure and taxonomic composition. 
+SEM_analyses.R runs week-specific Structural Equation Modelling with the brms R package, and reproduces results summarized in Table 1 of the main text and the Directed Acyclic Graphs in the Supporting Information.
+Hypothesis1.R runs week-specific GLMMs to test the hypothesis that the slope describing the temperature vs GPP relationship is modified by dispersal. The model is described in the Methods section of the manuscript.
+Hypothesis2.R runs analyses testing for dispersal's within-metacommunity variance reducing effect on biomass, size spectra, and thermal phenotype composition. 
 
 
